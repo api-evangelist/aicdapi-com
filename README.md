@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AICD API (aicdapi.com) provides an API and MCP server for searching civic records from Dallas–Fort Worth municipalities, linking to original government sources. It offers public no‑key endpoints for upcoming agenda hits and source status, with paid plans for full access.
+AICD API (aicdapi.com) serves source-linked Dallas–Fort Worth civic records over REST and a remote MCP server. Authenticated reads use a paid API key; the dated research catalog and the featured DFW meeting sources also have no-key routes. The API provides public endpoints for upcoming agenda hits and source status without authentication, and offers paid plans for full access.
 
-**Areas:** Company · CivicData · Government · API · MCP
+**Areas:** API · CivicData · Government · Texas · MCP
 
 ## aicdapi-com on APIs.io
 
@@ -128,37 +128,49 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Aicdapi Com Authentication](https://apis.io/security/aicdapi-com/aicdapi-com-authentication/)
 - [Aicdapi Com Domain Security](https://apis.io/security/aicdapi-com/aicdapi-com-domain-security/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Aicdapi Com Scopes](https://apis.io/scopes/aicdapi-com/aicdapi-com-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Aicdapi Com Plans Pricing](https://apis.io/plans/aicdapi-com/aicdapi-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aicdapi Com Rate Limits](https://apis.io/rate-limits/aicdapi-com/aicdapi-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://aicdapi.com/)
-- [Documentation](https://aicdapi.com/help)
+- [Documentation](https://aicdapi.com/api-reference)
 - [Getting started](https://aicdapi.com/help/getting-started)
 - [API reference](https://aicdapi.com/api-reference)
-- [Pricing](https://aicdapi.com/pricing)
+- [Pricing](https://aicdapi.com/help/billing)
 - [Sign up](https://aicdapi.com/sign-up)
-- [Support](https://aicdapi.com/help)
+- [Support](https://aicdapi.com/help/usage-limits)
 - [Blog](https://aicdapi.com/articles)
 - [Terms of service](https://aicdapi.com/terms)
 - [Privacy policy](https://aicdapi.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 58.0** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 62.8** — strong · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 66.1 |
 | Contract quality | 62.8 |
 | Contract governance | 79.1 |
-| Operational transparency | 0.0 |
+| Operational transparency | 18.9 |
 | Developer ergonomics | 54.0 |
 | Access clarity | 73.2 |
 
@@ -188,7 +200,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | — |
 
-**Regulatory alignment 24.5** — Government & Public Sector
+**Regulatory alignment 34.3** — Government & Public Sector
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aicdapi-com/](https://apis.io/providers/aicdapi-com/).
 
