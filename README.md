@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AICD API (aicdapi.com) serves source-linked Dallas–Fort Worth civic records over REST and a remote MCP server. Authenticated reads use a paid API key; the dated research catalog and the featured DFW meeting sources also have no-key routes. The API provides public endpoints for upcoming agenda hits and source status without authentication, and offers paid plans for full access.
+AICD API (aicdapi.com) provides an API and MCP server for searching civic records from Dallas–Fort Worth municipalities, linking to original government sources. It offers public no‑key endpoints for upcoming agenda hits and source status, with paid plans for full access.
 
-**Areas:** API · CivicData · Government · Texas · MCP
+**Areas:** Company · Civic Data · Government · MCP
 
 ## aicdapi-com on APIs.io
 
@@ -90,18 +90,27 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aicdapi Com Agentic Access](https://apis.io/agentic-access/aicdapi-com/aicdapi-com-agentic-access/)
+- [aicdapi-com Agentic Access](https://apis.io/agentic-access/aicdapi-com/aicdapi-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (15)
 
 The data models the API reads and writes.
 
+- [AgendaHitDetailEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-agenda-hit-detail-envelope/)
+- [AgendaHitListEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-agenda-hit-list-envelope/)
+- [CadenceEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-cadence-envelope/)
 - [CivicChangeItem](https://apis.io/schemas/aicdapi-com/aicdapi-com-civic-change-item/)
 - [CivicHealth](https://apis.io/schemas/aicdapi-com/aicdapi-com-civic-health/)
 - [CivicSnapshotItem](https://apis.io/schemas/aicdapi-com/aicdapi-com-civic-snapshot-item/)
 - [DataReportInput](https://apis.io/schemas/aicdapi-com/aicdapi-com-data-report-input/)
 - [DataReportStatusEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-data-report-status-envelope/)
 - [FeedSubscriptionCollectionEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-feed-subscription-collection-envelope/)
+- [GetOpenApiDocumentResponse](https://apis.io/schemas/aicdapi-com/aicdapi-com-get-open-api-document-response/)
+- [PostMcpJsonRpcRequest](https://apis.io/schemas/aicdapi-com/aicdapi-com-post-mcp-json-rpc-request/)
+- [PostMcpJsonRpcResponse](https://apis.io/schemas/aicdapi-com/aicdapi-com-post-mcp-json-rpc-response/)
+- [ResearchCoverageEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-research-coverage-envelope/)
+- [SourceStatusListEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-source-status-list-envelope/)
+- [UpcomingAgendaHitsEnvelope](https://apis.io/schemas/aicdapi-com/aicdapi-com-upcoming-agenda-hits-envelope/)
 
 #### JSON-LD (1)
 
@@ -113,7 +122,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Aicdapi Com Openapi Overlay](https://apis.io/overlays/aicdapi-com/aicdapi-com-openapi-overlay/)
+- [aicdapi-com Openapi Overlay](https://apis.io/overlays/aicdapi-com/aicdapi-com-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -125,70 +134,70 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aicdapi Com Authentication](https://apis.io/security/aicdapi-com/aicdapi-com-authentication/)
-- [Aicdapi Com Domain Security](https://apis.io/security/aicdapi-com/aicdapi-com-domain-security/)
+- [aicdapi-com Authentication](https://apis.io/security/aicdapi-com/aicdapi-com-authentication/)
+- [aicdapi-com Domain Security](https://apis.io/security/aicdapi-com/aicdapi-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Aicdapi Com Scopes](https://apis.io/scopes/aicdapi-com/aicdapi-com-scopes/)
+- [aicdapi-com Scopes](https://apis.io/scopes/aicdapi-com/aicdapi-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aicdapi Com Plans Pricing](https://apis.io/plans/aicdapi-com/aicdapi-com-plans-pricing/)
+- [aicdapi-com Plans Pricing](https://apis.io/plans/aicdapi-com/aicdapi-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Aicdapi Com Rate Limits](https://apis.io/rate-limits/aicdapi-com/aicdapi-com-rate-limits/)
+- [aicdapi-com Rate Limits](https://apis.io/rate-limits/aicdapi-com/aicdapi-com-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://aicdapi.com/)
-- [Documentation](https://aicdapi.com/api-reference)
+- [Documentation](https://aicdapi.com/help)
 - [Getting started](https://aicdapi.com/help/getting-started)
 - [API reference](https://aicdapi.com/api-reference)
-- [Pricing](https://aicdapi.com/help/billing)
+- [Pricing](https://aicdapi.com/pricing)
 - [Sign up](https://aicdapi.com/sign-up)
-- [Support](https://aicdapi.com/help/usage-limits)
+- [Support](https://aicdapi.com/help)
 - [Blog](https://aicdapi.com/articles)
 - [Terms of service](https://aicdapi.com/terms)
 - [Privacy policy](https://aicdapi.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 62.8** — strong · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 53.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 55.4 |
 | Contract quality | 62.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 18.9 |
-| Developer ergonomics | 54.0 |
-| Access clarity | 73.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 19.0 |
+| Developer ergonomics | 49.4 |
+| Access clarity | 76.6 |
 
-**Agent readiness 49.5** — agent-native
+**Agent readiness 39.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -199,8 +208,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | partial |
 | Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 34.3** — Government & Public Sector
+**Regulatory alignment 28.4** — Government & Public Sector
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aicdapi-com/](https://apis.io/providers/aicdapi-com/).
 
